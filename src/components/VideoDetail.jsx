@@ -8,7 +8,7 @@ import Videos from "./Videos";
 
 const VideoDetail = () => {
     const [videoDetail, setVideoDetail] = useState(null);
-    const [videos, setVideos] = useState(null);
+    const [videos, setVideos] = useState([]);
     const { id } = useParams();
 
     useEffect(() => {
